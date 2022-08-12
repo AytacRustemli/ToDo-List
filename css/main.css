@@ -212,8 +212,59 @@ main .task-list #tasks .task .actions .toggle {
     background-color: #10303C;
     margin-top: 50px;
     border-radius: 10px;
-    width: 90%;
-    margin: auto;
+    width: 100%;
+  }
+  header {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  header #new-task-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header #new-task-form #new-task-input {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 0%;
+            flex: 1 1 0%;
+    background-color: var(--darker);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: var(--light);
+    font-size: 1.25rem;
+  }
+  header #new-task-form #new-task-input::-webkit-input-placeholder {
+    color: var(--grey);
+  }
+  header #new-task-form #new-task-input:-ms-input-placeholder {
+    color: var(--grey);
+  }
+  header #new-task-form #new-task-input::-ms-input-placeholder {
+    color: var(--grey);
+  }
+  header #new-task-form #new-task-input::placeholder {
+    color: var(--grey);
+  }
+  header #new-task-form #new-task-submit {
+    color: var(--pink);
+    font-size: 1.25rem;
+    font-weight: 700;
+    background-image: -webkit-gradient(linear, left top, right top, from(var(--pink)), to(var(--purple)));
+    background-image: linear-gradient(to right, var(--pink), var(--purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  header #new-task-form #new-task-submit:hover {
+    opacity: 0.8;
+  }
+  header #new-task-form #new-task-submit:active {
+    opacity: 0.6;
   }
 }
 /*# sourceMappingURL=main.css.map */
