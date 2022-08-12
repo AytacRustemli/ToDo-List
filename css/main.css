@@ -215,8 +215,7 @@ main .task-list #tasks .task .actions .toggle {
     width: 100%;
   }
   header {
-    padding: 2rem 1rem;
-    max-width: 800px;
+    padding: 2rem 0.7rem;
     width: 100%;
     margin: 0 auto;
   }
@@ -232,9 +231,8 @@ main .task-list #tasks .task .actions .toggle {
     background-color: var(--darker);
     padding: 1rem;
     border-radius: 1rem;
-    margin-right: 1rem;
     color: var(--light);
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
   header #new-task-form #new-task-input::-webkit-input-placeholder {
     color: var(--grey);
@@ -250,7 +248,7 @@ main .task-list #tasks .task .actions .toggle {
   }
   header #new-task-form #new-task-submit {
     color: var(--pink);
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 700;
     background-image: -webkit-gradient(linear, left top, right top, from(var(--pink)), to(var(--purple)));
     background-image: linear-gradient(to right, var(--pink), var(--purple));

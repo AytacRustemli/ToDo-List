@@ -161,8 +161,8 @@ main {
         // margin: auto;
     }
     header {
-        padding: 2rem 1rem;
-        max-width: 800px;
+        padding: 2rem 0.7rem;
+        // max-width: 800px;
         width: 100%;
         margin: 0 auto;
         #new-task-form {
@@ -172,16 +172,16 @@ main {
                 background-color: var(--darker);
                 padding: 1rem;
                 border-radius: 1rem;
-                margin-right: 1rem;
+                // margin-right: 1rem;
                 color: var(--light);
-                font-size: 1.25rem;
+                font-size: 1rem;
                 &::placeholder{
                     color: var(--grey);
                 }
             }
             #new-task-submit {
                 color: var(--pink);
-                font-size: 1.25rem;
+                font-size: 1rem;
                 font-weight: 700;
                 background-image: linear-gradient(to right, var(--pink), var(--purple));
                 -webkit-background-clip: text;
