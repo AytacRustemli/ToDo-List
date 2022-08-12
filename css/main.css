@@ -206,4 +206,14 @@ main .task-list #tasks .task .actions .finishButton {
 main .task-list #tasks .task .actions .toggle {
   text-decoration: line-through;
 }
+
+@media (max-width: 576px) {
+  .common {
+    background-color: #10303C;
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+  }
+}
 /*# sourceMappingURL=main.css.map */
